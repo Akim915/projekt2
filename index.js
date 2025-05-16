@@ -4,7 +4,7 @@ const app = express();
 const client = new pg.Client({
     user: 'user11', // Nazwa użytkownika bazy danych
     host: '192.168.0.207', // Adres hosta bazy danych
-    database: 'user8_db', // Nazwa bazy danych
+    database: 'user11_db', // Nazwa bazy danych
     password: 'LUOLLROS', // Hasło użytkownika bazy danych
     port: 5432, // Port, na którym działa serwer PostgreSQL
 });
